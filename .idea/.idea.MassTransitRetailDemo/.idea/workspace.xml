@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="43df8e38-a076-4877-9c93-a711b9189940" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Billing/OrderPlacedHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sales/PlaceOrderHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Shipping/ShippingSaga.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sales/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Shipping/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Shipping/OrderBilledHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Shipping/OrderPlacedHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Messages/Commands/PlaceOrder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MassTransitRetailDemo/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Messages/Events/OrderPlaced.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Messages/Events/OrderBilled.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Billing/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Messages/Class1.cs" />
+        <option value="$PROJECT_DIR$/Sales/Class1.cs" />
+        <option value="$PROJECT_DIR$/Sales/class.cs" />
+        <option value="$PROJECT_DIR$/Billing/PlaceOrderHandler.cs" />
+        <option value="$PROJECT_DIR$/Shipping/OrderPlacedHandler.cs" />
+        <option value="$PROJECT_DIR$/Shipping/OrderBilledHandler.cs" />
+        <option value="$PROJECT_DIR$/Shipping/OrderStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Shipping/asdf.cs" />
+        <option value="$PROJECT_DIR$/Shipping/ShippingStateMachine.cs" />
+        <option value="$PROJECT_DIR$/Messages/Commands/PlaceOrder.cs" />
+        <option value="$PROJECT_DIR$/Messages/Events/OrderPlaced.cs" />
+        <option value="$PROJECT_DIR$/Billing/OrderPlacedHandler.cs" />
+        <option value="$PROJECT_DIR$/Sales/PlaceOrderHandler.cs" />
+        <option value="$PROJECT_DIR$/Messages/Events/OrderBilled.cs" />
+        <option value="$PROJECT_DIR$/MassTransitRetailDemo/Program.cs" />
+        <option value="$PROJECT_DIR$/Shipping/Program.cs" />
+        <option value="$PROJECT_DIR$/Sales/Program.cs" />
+        <option value="$PROJECT_DIR$/Billing/Program.cs" />
+        <option value="$PROJECT_DIR$/Shipping/ShippingSaga.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TbiUJbzBe4xRzDmBLmMYspt2ar" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Compound.Complete System">
+    <configuration name="Complete System" type="CompoundRunConfigurationType">
+      <toRun name="Shipping" type="DotNetProject" />
+      <toRun name="Sales" type="DotNetProject" />
+      <toRun name="UI" type="DotNetProject" />
+      <toRun name="Billing" type="DotNetProject" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType">
+      <toRun name="Shipping" type="DotNetProject" />
+      <toRun name="Sales" type="DotNetProject" />
+      <toRun name="UI" type="DotNetProject" />
+      <toRun name="Billing" type="DotNetProject" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Billing" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Billing/bin/Debug/netcoreapp3.0/Billing.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Billing/bin/Debug/netcoreapp3.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Billing/Billing.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sales" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Sales/bin/Debug/netcoreapp3.0/Sales.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sales/bin/Debug/netcoreapp3.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Sales/Sales.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shipping" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Shipping/bin/Debug/netcoreapp3.0/Shipping.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Shipping/bin/Debug/netcoreapp3.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Shipping/Shipping.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UI" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/MassTransitRetailDemo/bin/Debug/netcoreapp3.0/MassTransitRetailDemo.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MassTransitRetailDemo/bin/Debug/netcoreapp3.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MassTransitRetailDemo/MassTransitRetailDemo.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Shipping" />
+      <item itemvalue=".NET Project.Billing" />
+      <item itemvalue=".NET Project.Sales" />
+      <item itemvalue=".NET Project.UI" />
+      <item itemvalue="Compound.Complete System" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43df8e38-a076-4877-9c93-a711b9189940" name="Default Changelist" comment="" />
+      <created>1573735209396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573735209396</updated>
+      <workItem from="1573735210872" duration="10627000" />
+      <workItem from="1573807308846" duration="2817000" />
+      <workItem from="1573811936265" duration="7506000" />
+      <workItem from="1574939263949" duration="789000" />
+      <workItem from="1580376041873" duration="7545000" />
+      <workItem from="1580518408111" duration="717000" />
+      <workItem from="1580555951157" duration="739000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="WindowStateProjectService">
+    <state x="-1506" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1573831759407">
+      <screen x="-1920" y="67" width="1920" height="1050" />
+    </state>
+    <state x="-1506" y="246" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573831759407" />
+    <state width="462" height="466" key="DebuggerActiveHint" timestamp="1580380937549">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="462" height="466" key="DebuggerActiveHint/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580380937549" />
+    <state width="2517" height="459" key="GridCell.Tab.0.bottom" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865900" />
+    <state width="1877" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830301" />
+    <state width="2517" height="459" key="GridCell.Tab.0.bottom/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.0.center" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865900" />
+    <state width="1877" height="323" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830301" />
+    <state width="2517" height="459" key="GridCell.Tab.0.center/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.0.left" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865900" />
+    <state width="1877" height="323" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830301" />
+    <state width="2517" height="459" key="GridCell.Tab.0.left/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.0.right" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865900" />
+    <state width="1877" height="323" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830301" />
+    <state width="2517" height="459" key="GridCell.Tab.0.right/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.1.bottom" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.1.bottom/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.1.center" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.1.center/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.1.center/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.1.left" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865900" />
+    <state width="1877" height="323" key="GridCell.Tab.1.left/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.1.left/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.1.right" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.1.right/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.1.right/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.2.bottom" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.2.bottom/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.2.bottom/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.2.bottom/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.2.center" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.2.center/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.2.center/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.2.center/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.2.left" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.2.left/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.2.left/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.2.left/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.2.right" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.2.right/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.2.right/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.2.right/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.3.bottom" timestamp="1580464913687">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.3.bottom/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.3.bottom/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.3.bottom/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913687" />
+    <state width="2517" height="459" key="GridCell.Tab.3.center" timestamp="1580464913687">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.3.center/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.3.center/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.3.center/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913687" />
+    <state width="2517" height="459" key="GridCell.Tab.3.left" timestamp="1580464913686">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.3.left/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.3.left/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.3.left/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913686" />
+    <state width="2517" height="459" key="GridCell.Tab.3.right" timestamp="1580464913687">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.3.right/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.3.right/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.3.right/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913687" />
+    <state width="2517" height="459" key="GridCell.Tab.4.bottom" timestamp="1580464913687">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.4.bottom/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.4.bottom/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.4.bottom/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913687" />
+    <state width="2517" height="459" key="GridCell.Tab.4.center" timestamp="1580464913687">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.4.center/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.4.center/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.4.center/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913687" />
+    <state width="2517" height="459" key="GridCell.Tab.4.left" timestamp="1580464913687">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.4.left/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.4.left/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.4.left/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913687" />
+    <state width="2517" height="459" key="GridCell.Tab.4.right" timestamp="1580464913687">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state width="1877" height="323" key="GridCell.Tab.4.right/0.0.1920.1050/-1920.67.1920.1050@-1920.67.1920.1050" timestamp="1573832865901" />
+    <state width="1877" height="323" key="GridCell.Tab.4.right/0.0.1920.1050/-1920.67.1920.1050@0.0.1920.1050" timestamp="1574066830302" />
+    <state width="2517" height="459" key="GridCell.Tab.4.right/0.0.2560.1410/-2560.0.2560.1410@0.0.2560.1410" timestamp="1580464913687" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

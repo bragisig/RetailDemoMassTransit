@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Billing" t="IncludeRecursive">
+        <e p="Billing.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Billing.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OrderPlacedHandler.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Contracts" t="Include" />
+      <e p="MassTransitRetailDemo" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MassTransitRetailDemo.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="MassTransitRetailDemo.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="MassTransitRetailDemo.sln" t="IncludeFlat" />
+      <e p="Messages" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="PlaceOrder.cs" t="Include" />
+        </e>
+        <e p="Events" t="Include">
+          <e p="OrderBilled.cs" t="Include" />
+          <e p="OrderPlaced.cs" t="Include" />
+        </e>
+        <e p="Messages.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Messages.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Sales" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Sales.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="PlaceOrderHandler.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Sales.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Services" t="Include" />
+      <e p="Shipping" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Shipping.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OrderBilledHandler.cs" t="Include" />
+        <e p="OrderPlacedHandler.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Shipping.csproj" t="IncludeRecursive" />
+        <e p="ShippingSaga.cs" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_MassTransitRetailDemo.1357517247.00" t="ExcludeRecursive" />
+  </component>
+</project>
