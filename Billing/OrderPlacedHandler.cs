@@ -18,6 +18,7 @@ namespace Billing
             Thread.Sleep(rnd.Next(0, 3000));
             Log.Info($"Received OrderPlaced, OrderId = {context.Message.OrderId} - Charging credit card...");
             
+            //Make the charging of the card fail randomly to test the retry mechanism
             if (rnd.Next(0, 3) == 0)
             {
                 throw new Exception("Credit card charging failed with an exception!");

@@ -38,8 +38,8 @@ namespace Billing
                 {
                     endpointConfigurator.Consumer<OrderPlacedHandler>(consumerConfig =>
                     {
+                        //Retry the billing 5 times
                         consumerConfig.UseMessageRetry(r => r.Immediate(5));
-                        //consumer config
                     });
                 });
                 
