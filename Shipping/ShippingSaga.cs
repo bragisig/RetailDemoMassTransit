@@ -13,7 +13,6 @@ namespace Shipping
         ISaga, 
         InitiatedBy<OrderPlaced>,
         Orchestrates<OrderBilled>
-        // Observes<OrderBilled, ShippingSaga>
     {
         private static readonly ILog Log = Logger.Get<ShippingSaga>();
         Random rnd = new Random();
@@ -22,9 +21,6 @@ namespace Shipping
 
         public DateTime? OrderPlacedDate { get; set; }
         public DateTime? OrderBilledDate { get; set; }
-
-         // public Expression<Func<ShippingSaga, OrderBilled, bool>> CorrelationExpression =>
-         //     (saga, message) => saga.CorrelationId == message.CorrelationId;
         
         public Task Consume(ConsumeContext<OrderPlaced> context)
         {
@@ -39,8 +35,6 @@ namespace Shipping
         public Task Consume(ConsumeContext<OrderBilled> context)
         {
             OrderBilledDate = context.Message.BillingDate;
-            
-            //throw new Exception("test saga error");
             
             Thread.Sleep(rnd.Next(0, 2000));
             Log.Info($"Received OrderBilled, OrderId = {context.Message.OrderId}, billing date  = {context.Message.BillingDate}");
