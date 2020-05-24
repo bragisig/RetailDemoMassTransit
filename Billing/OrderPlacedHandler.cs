@@ -25,7 +25,7 @@ namespace Billing
             logger.LogInformation($"Received OrderPlaced, OrderId = {context.Message.OrderId} - Charging credit card...");
             
             //Make the charging of the card fail randomly to test the retry mechanism
-            if (rnd.Next(0, 3) == 0)
+            if (rnd.Next(0, 8) == 0)
             {
                 throw new Exception("Credit card charging failed with an exception!");
             }

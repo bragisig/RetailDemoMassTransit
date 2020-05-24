@@ -15,7 +15,6 @@ namespace MassTransitRetailDemo
             try
             {
                 AsyncMain().GetAwaiter().GetResult();
-
             }
             catch (Exception e)
             {
@@ -42,9 +41,7 @@ namespace MassTransitRetailDemo
                     host.Password("guest");
                 });
             });
-
-            EndpointConvention.Map<PlaceOrder>(new Uri("rabbitmq://localhost/RetailDemoMassTransit/PlaceOrderHandler"));
-
+            
             await busControl.StartAsync().ConfigureAwait(false);
             
             await RunLoop(busControl)
@@ -57,10 +54,10 @@ namespace MassTransitRetailDemo
         {
             while (true)
             {
-                Log.Information("Press 'P' to place an order, or 'Q' to quit.");
+                Console.Write("Press 'P' to place an order, or 'Q' to quit: ");
                 var key = Console.ReadKey();
                 Console.WriteLine();
-
+                
                 switch (key.Key)
                 {
                     case ConsoleKey.P:
@@ -72,11 +69,13 @@ namespace MassTransitRetailDemo
 
                         // Send the command to the local endpoint
                         Log.Information($"Sending PlaceOrder command, OrderId = {command.OrderId}");
-                        await bus.Send(command).ConfigureAwait(false);
-
+                        
+                        var r = await bus.GetSendEndpoint(new Uri("exchange:PlaceOrderHandler"));
+                        await r.Send(command);
                         break;
 
                     case ConsoleKey.Q:
+                        Log.Information("Q was pressed, shutting down.");
                         return;
 
                     default:
