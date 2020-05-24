@@ -2,18 +2,24 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using MassTransit;
-using MassTransit.Logging;
-using Messages;
 using Messages.Commands;
 using Messages.Events;
+using Microsoft.Extensions.Logging;
 
 namespace Sales
 {
     public class PlaceOrderHandler :
         IConsumer<PlaceOrder>
     {
-        private static readonly ILog Log = Logger.Get<PlaceOrderHandler>();
+        private readonly ILogger<PlaceOrderHandler> logger;
+
         Random rnd = new Random();
+        
+        public PlaceOrderHandler(ILogger<PlaceOrderHandler> logger)
+        {
+            this.logger = logger;
+            logger.LogInformation("PlaceOrderHandler constructed");
+        }
         
         public async Task Consume(ConsumeContext<PlaceOrder> context)
         {
@@ -26,7 +32,7 @@ namespace Sales
                 OrderDate = DateTime.Now
             };
             
-            Log.Info($"PlaceOrder -> Order processed, OrderId: {context.Message.OrderId}, order date: {orderPlaced.OrderDate}");
+            logger.LogInformation($"PlaceOrder -> Order processed, OrderId: {context.Message.OrderId}, order date: {orderPlaced.OrderDate}");
 
             await context.Publish(orderPlaced);
 

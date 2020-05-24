@@ -1,19 +1,16 @@
 ﻿using System;
-using System.Threading;
 using System.Threading.Tasks;
 using MassTransit;
-using MassTransit.Logging;
-using Messages;
 using Messages.Commands;
 using Serilog;
+using Serilog.Events;
+using Serilog.Sinks.SystemConsole.Themes;
 
 namespace MassTransitRetailDemo
 {
     class Program
     {
-        private static readonly ILog Log = Logger.Get<Program>();
-        
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
             try
             {
@@ -22,7 +19,7 @@ namespace MassTransitRetailDemo
             }
             catch (Exception e)
             {
-                Log.Error(e);
+                Log.Error(e, "Error");
             }
         }
         
@@ -30,22 +27,23 @@ namespace MassTransitRetailDemo
         {
             Console.Title = "MassTransitRetailDemoUI";
             
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+                .Enrich.FromLogContext()
+                .WriteTo.Console(theme: AnsiConsoleTheme.Code)
+                .CreateLogger();
+            
             var busControl = Bus.Factory.CreateUsingRabbitMq(config =>
             {
-                var logger = new LoggerConfiguration()
-                    .WriteTo.Console()
-                    .CreateLogger();
-
-                config.UseSerilog(logger);
-
                 config.Host(new Uri("rabbitmq://localhost/RetailDemoMassTransit"), host =>
                 {
                     host.Username("guest");
                     host.Password("guest");
                 });
             });
-            
-            EndpointConvention.Map<PlaceOrder>(new Uri("rabbitmq://localhost/RetailDemoMassTransit/Sales"));
+
+            EndpointConvention.Map<PlaceOrder>(new Uri("rabbitmq://localhost/RetailDemoMassTransit/PlaceOrderHandler"));
 
             await busControl.StartAsync().ConfigureAwait(false);
             
@@ -59,7 +57,7 @@ namespace MassTransitRetailDemo
         {
             while (true)
             {
-                Log.Info("Press 'P' to place an order, or 'Q' to quit.");
+                Log.Information("Press 'P' to place an order, or 'Q' to quit.");
                 var key = Console.ReadKey();
                 Console.WriteLine();
 
@@ -73,7 +71,7 @@ namespace MassTransitRetailDemo
                         };
 
                         // Send the command to the local endpoint
-                        Log.Info($"Sending PlaceOrder command, OrderId = {command.OrderId}");
+                        Log.Information($"Sending PlaceOrder command, OrderId = {command.OrderId}");
                         await bus.Send(command).ConfigureAwait(false);
 
                         break;
@@ -82,7 +80,7 @@ namespace MassTransitRetailDemo
                         return;
 
                     default:
-                        Log.Info("Unknown input. Please try again.");
+                       //Log.Info("Unknown input. Please try again.");
                         break;
                 }
             }

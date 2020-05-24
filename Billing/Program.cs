@@ -1,56 +1,88 @@
 ﻿using System;
+using System.Collections;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using GreenPipes;
+using GreenPipes.Configurators;
+using GreenPipes.Policies;
 using MassTransit;
-using MassTransit.Logging;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using Serilog;
+using Serilog.Events;
+using Serilog.Sinks.SystemConsole.Themes;
 
 namespace Billing
 {
     class Program
     {
-        private static readonly ILog Log = Logger.Get<Program>();
-
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
-            AsyncMain().GetAwaiter().GetResult();
+            AsyncMain(args).GetAwaiter().GetResult();
         }
-
-        static async Task AsyncMain()
+        
+        static async Task AsyncMain(string[] args)
         {
             Console.Title = "Billing";
+            
+            var isService = !(Debugger.IsAttached || ((IList) args).Contains("--console"));
 
-            var busControl = Bus.Factory.CreateUsingRabbitMq(config =>
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+                .Enrich.FromLogContext()
+                .WriteTo.Console(theme: AnsiConsoleTheme.Code)
+                .CreateLogger();
+
+            var builder = new HostBuilder()
+                .ConfigureAppConfiguration((hostBuilderContext, config) =>
+                {
+                    config.AddJsonFile("appsettings.json", true);
+                    config.AddEnvironmentVariables();
+
+                    if (args != null)
+                        config.AddCommandLine(args);
+                })
+                .ConfigureServices((hostBuilderContext, services) =>
+                {
+                    services.AddMassTransit(cfg =>
+                    {
+                        cfg.AddConsumersFromNamespaceContaining<OrderPlacedHandler>();
+                        cfg.AddBus(ConfigureBus);
+                    });
+                    
+                    services.AddHostedService<BillingHostedService>();
+                })
+                .ConfigureLogging((hostBuilderContext, logging) =>
+                {
+                    logging.AddSerilog(Log.Logger);
+                    logging.AddConfiguration(hostBuilderContext.Configuration.GetSection("Logging"));
+                });
+
+            if (isService)
+                await builder.UseWindowsService().Build().RunAsync();
+            else
+                await builder.RunConsoleAsync();
+
+            Log.CloseAndFlush();
+        }
+
+        private static IBusControl ConfigureBus(IRegistrationContext<IServiceProvider> registrationContext)
+        {
+            return Bus.Factory.CreateUsingRabbitMq(config =>
             {
-                var logger = new LoggerConfiguration()
-                    .WriteTo.Console()
-                    .CreateLogger();
-
-                config.UseSerilog(logger);
-
                 config.Host(new Uri("rabbitmq://localhost/RetailDemoMassTransit"), host =>
                 {
                     host.Username("guest");
                     host.Password("guest");
                 });
                 
-                config.ReceiveEndpoint(endpointConfigurator =>
-                {
-                    endpointConfigurator.Consumer<OrderPlacedHandler>(consumerConfig =>
-                    {
-                        //Retry the billing 5 times
-                        consumerConfig.UseMessageRetry(r => r.Immediate(5));
-                    });
-                });
+                config.UseMessageRetry(r => r.Interval(3, TimeSpan.FromSeconds(5)));
                 
+                config.ConfigureEndpoints(registrationContext);
             });
-
-            await busControl.StartAsync().ConfigureAwait(false);
-
-            Console.WriteLine("Press Enter to exit.");
-            Console.ReadLine();
-
-            await busControl.StopAsync().ConfigureAwait(false);
         }
     }
 }

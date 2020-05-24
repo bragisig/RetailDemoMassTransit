@@ -2,21 +2,27 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 using MassTransit;
-using MassTransit.Logging;
 using Messages.Events;
+using Microsoft.Extensions.Logging;
 
 namespace Billing
 {
     public class OrderPlacedHandler :
         IConsumer<OrderPlaced>
     {
-        private static readonly ILog Log = Logger.Get<OrderPlacedHandler>();
+        private readonly ILogger<OrderPlacedHandler> logger;
         Random rnd = new Random();
-
+        
+        public OrderPlacedHandler(ILogger<OrderPlacedHandler> logger)
+        {
+            this.logger = logger;
+            logger.LogInformation("OrderPlacedHandler constructed");
+        }
+        
         public async Task Consume(ConsumeContext<OrderPlaced> context)
         {
             Thread.Sleep(rnd.Next(0, 3000));
-            Log.Info($"Received OrderPlaced, OrderId = {context.Message.OrderId} - Charging credit card...");
+            logger.LogInformation($"Received OrderPlaced, OrderId = {context.Message.OrderId} - Charging credit card...");
             
             //Make the charging of the card fail randomly to test the retry mechanism
             if (rnd.Next(0, 3) == 0)
@@ -25,8 +31,7 @@ namespace Billing
             }
             
             Thread.Sleep(rnd.Next(2000, 5000));
-            
-            
+
             var orderBilled = new OrderBilled
             {
                 OrderId = context.Message.OrderId,
@@ -34,7 +39,7 @@ namespace Billing
                 BillingDate = DateTime.Now
             };
             
-            Log.Info($"Credit card successfully charged, order billed at {orderBilled.BillingDate}");
+            logger.LogInformation($"Credit card successfully charged, order billed at {orderBilled.BillingDate}");
 
             await context.Publish(orderBilled);
 
