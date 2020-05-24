@@ -21,3 +21,13 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-manag
 ```
 
 You should now be able to open the RabbitMq management portal at http://localhost:15672
+
+## System running
+
+![UI](ui.png)
+
+![Sales](sales.png)
+
+![Billing](billing.png)
+
+![Shipping](shipping.png)
