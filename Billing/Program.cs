@@ -3,8 +3,6 @@ using System.Collections;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using GreenPipes;
-using GreenPipes.Configurators;
-using GreenPipes.Policies;
 using MassTransit;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

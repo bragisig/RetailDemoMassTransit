@@ -80,7 +80,7 @@ namespace MassTransitRetailDemo
                         return;
 
                     default:
-                       //Log.Info("Unknown input. Please try again.");
+                        Log.Information("Unknown input. Please try again.");
                         break;
                 }
             }

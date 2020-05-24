@@ -1,10 +1,10 @@
-namespace Sales
+using System.Threading;
+using System.Threading.Tasks;
+using MassTransit;
+using Microsoft.Extensions.Hosting;
+
+namespace Shipping
 {
-    using System.Threading;
-    using System.Threading.Tasks;
-    using MassTransit;
-    using Microsoft.Extensions.Hosting;
-    
     public class ShippingHostedService :
         IHostedService
     {

@@ -76,8 +76,6 @@
             </e>
           </e>
         </e>
-        <e p="OrderBilledHandler.cs" t="Include" />
-        <e p="OrderPlacedHandler.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Shipping.csproj" t="IncludeRecursive" />
         <e p="ShippingHostedService.cs" t="Include" />

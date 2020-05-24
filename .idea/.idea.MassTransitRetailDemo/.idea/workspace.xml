@@ -19,30 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43df8e38-a076-4877-9c93-a711b9189940" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Billing/BillingHostedService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Billing/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sales/SalesHostedService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sales/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shipping/ShippingHostedService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shipping/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MassTransitRetailDemo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MassTransitRetailDemo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MassTransitRetailDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MassTransitRetailDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Billing/Billing.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Billing/Billing.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Billing/OrderPlacedHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Billing/OrderPlacedHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Billing/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Billing/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MassTransitRetailDemo/MassTransitRetailDemo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MassTransitRetailDemo/MassTransitRetailDemo.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MassTransitRetailDemo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MassTransitRetailDemo/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Messages/Messages.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Messages/Messages.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sales/PlaceOrderHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sales/PlaceOrderHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sales/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sales/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sales/Sales.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Sales/Sales.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shipping/OrderBilledHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shipping/OrderBilledHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shipping/OrderPlacedHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shipping/OrderPlacedHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shipping/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shipping/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shipping/Shipping.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Shipping/Shipping.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shipping/ShippingSaga.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shipping/ShippingSaga.cs" afterDir="false" />
-    </list>
+    <list default="true" id="43df8e38-a076-4877-9c93-a711b9189940" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,19 +43,20 @@
     <setting file="file://$PROJECT_DIR$/Messages/Commands/PlaceOrder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8B900FFC-8C32-448C-B45C-832802E7BFBF/9a/76f54855/InMemorySagaRepository`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/71F6D499-31D3-4C0A-B322-A9423AFC6E4F/5f/f46dd3f2/ILogger`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Shipping/OrderBilledHandler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Shipping/OrderPlacedHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MassTransitRetailDemo/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Billing/BillingHostedService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B8CDA82-C1B4-4C76-B52A-BD838E947647/81/61574109/IRegistrationConfigurator`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Sales/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shipping/ShippingSaga.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2A10BAEF-B890-4090-93DC-2444C9EE72C1/37/799e8a9c/SerilogLoggingBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///ShippingSaga.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3B8CDA82-C1B4-4C76-B52A-BD838E947647/1D5/MissingSagaPipe.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///ShippingSaga.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///ShippingSaga.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/16A999D2-0FCD-4CE8-B84D-CAB467D3BB92/68/7858c537/SerilogConfiguratorExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///ShippingSaga.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///OrderPlacedHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/16A999D2-0FCD-4CE8-B84D-CAB467D3BB92/1/SeriLogConfiguratorExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Program.cs" root0="SKIP_HIGHLIGHTING" />
@@ -94,6 +72,7 @@
     <setting file="mock:///OrderPlacedHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Shipping/ShippingHostedService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B8CDA82-C1B4-4C76-B52A-BD838E947647/a7/8411472a/IRegistrationConfigurator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,13 +94,13 @@
         <option value="$PROJECT_DIR$/Sales/Program.cs" />
         <option value="$PROJECT_DIR$/Shipping/ShippingHostedService.cs" />
         <option value="$PROJECT_DIR$/MassTransitRetailDemo/Program.cs" />
-        <option value="$PROJECT_DIR$/Shipping/ShippingSaga.cs" />
         <option value="$PROJECT_DIR$/Shipping/Program.cs" />
         <option value="$PROJECT_DIR$/Billing/OrderPlacedHandler.cs" />
         <option value="$PROJECT_DIR$/Sales/PlaceOrderHandler.cs" />
         <option value="$PROJECT_DIR$/Shipping/OrderBilledHandler.cs" />
         <option value="$PROJECT_DIR$/Shipping/OrderPlacedHandler.cs" />
         <option value="$PROJECT_DIR$/Billing/Program.cs" />
+        <option value="$PROJECT_DIR$/Shipping/ShippingSaga.cs" />
       </list>
     </option>
   </component>
@@ -259,6 +238,21 @@
       <workItem from="1580518408111" duration="717000" />
       <workItem from="1580555951157" duration="739000" />
     </task>
+    <task id="LOCAL-00001" summary="Microsoft dependency injection for consumers. Hosted services and more.">
+      <created>1590342034944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590342034944</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remove reduntant code">
+      <created>1590342096536</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590342096536</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,91 +282,96 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Microsoft dependency injection for consumers. Hosted services and more." />
+    <MESSAGE value="Remove reduntant code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove reduntant code" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="100" y="123" width="2360" height="1217" key="DiffContextDialog" timestamp="1590341323264">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="100" y="123" width="2360" height="1217" key="DiffContextDialog/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341323264" />
-    <state width="1259" height="457" key="GridCell.Tab.0.bottom" timestamp="1590341580887">
+    <state width="1259" height="457" key="GridCell.Tab.0.bottom" timestamp="1590341957170">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580887" />
-    <state width="1259" height="457" key="GridCell.Tab.0.center" timestamp="1590341580886">
+    <state width="1259" height="457" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957170" />
+    <state width="1259" height="457" key="GridCell.Tab.0.center" timestamp="1590341957169">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.0.center/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580886" />
-    <state width="1259" height="457" key="GridCell.Tab.0.left" timestamp="1590341580885">
+    <state width="1259" height="457" key="GridCell.Tab.0.center/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957169" />
+    <state width="1259" height="457" key="GridCell.Tab.0.left" timestamp="1590341957168">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.0.left/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580885" />
-    <state width="1259" height="457" key="GridCell.Tab.0.right" timestamp="1590341580886">
+    <state width="1259" height="457" key="GridCell.Tab.0.left/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957168" />
+    <state width="1259" height="457" key="GridCell.Tab.0.right" timestamp="1590341957169">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.0.right/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580886" />
-    <state width="1259" height="457" key="GridCell.Tab.1.bottom" timestamp="1590341580888">
+    <state width="1259" height="457" key="GridCell.Tab.0.right/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957169" />
+    <state width="1259" height="457" key="GridCell.Tab.1.bottom" timestamp="1590341957171">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580888" />
-    <state width="1259" height="457" key="GridCell.Tab.1.center" timestamp="1590341580888">
+    <state width="1259" height="457" key="GridCell.Tab.1.bottom/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957171" />
+    <state width="1259" height="457" key="GridCell.Tab.1.center" timestamp="1590341957170">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.1.center/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580888" />
-    <state width="1259" height="457" key="GridCell.Tab.1.left" timestamp="1590341580887">
+    <state width="1259" height="457" key="GridCell.Tab.1.center/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957170" />
+    <state width="1259" height="457" key="GridCell.Tab.1.left" timestamp="1590341957170">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.1.left/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580887" />
-    <state width="1259" height="457" key="GridCell.Tab.1.right" timestamp="1590341580888">
+    <state width="1259" height="457" key="GridCell.Tab.1.left/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957170" />
+    <state width="1259" height="457" key="GridCell.Tab.1.right" timestamp="1590341957171">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.1.right/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580888" />
-    <state width="1259" height="457" key="GridCell.Tab.2.bottom" timestamp="1590341580890">
+    <state width="1259" height="457" key="GridCell.Tab.1.right/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957171" />
+    <state width="1259" height="457" key="GridCell.Tab.2.bottom" timestamp="1590341957172">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.2.bottom/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580890" />
-    <state width="1259" height="457" key="GridCell.Tab.2.center" timestamp="1590341580890">
+    <state width="1259" height="457" key="GridCell.Tab.2.bottom/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957172" />
+    <state width="1259" height="457" key="GridCell.Tab.2.center" timestamp="1590341957172">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.2.center/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580890" />
-    <state width="1259" height="457" key="GridCell.Tab.2.left" timestamp="1590341580889">
+    <state width="1259" height="457" key="GridCell.Tab.2.center/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957172" />
+    <state width="1259" height="457" key="GridCell.Tab.2.left" timestamp="1590341957171">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.2.left/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580889" />
-    <state width="1259" height="457" key="GridCell.Tab.2.right" timestamp="1590341580890">
+    <state width="1259" height="457" key="GridCell.Tab.2.left/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957171" />
+    <state width="1259" height="457" key="GridCell.Tab.2.right" timestamp="1590341957172">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.2.right/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580890" />
-    <state width="1259" height="457" key="GridCell.Tab.3.bottom" timestamp="1590341580892">
+    <state width="1259" height="457" key="GridCell.Tab.2.right/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957172" />
+    <state width="1259" height="457" key="GridCell.Tab.3.bottom" timestamp="1590341957173">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.3.bottom/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580892" />
-    <state width="1259" height="457" key="GridCell.Tab.3.center" timestamp="1590341580891">
+    <state width="1259" height="457" key="GridCell.Tab.3.bottom/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957173" />
+    <state width="1259" height="457" key="GridCell.Tab.3.center" timestamp="1590341957173">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.3.center/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580891" />
-    <state width="1259" height="457" key="GridCell.Tab.3.left" timestamp="1590341580891">
+    <state width="1259" height="457" key="GridCell.Tab.3.center/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957173" />
+    <state width="1259" height="457" key="GridCell.Tab.3.left" timestamp="1590341957173">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.3.left/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580891" />
-    <state width="1259" height="457" key="GridCell.Tab.3.right" timestamp="1590341580892">
+    <state width="1259" height="457" key="GridCell.Tab.3.left/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957173" />
+    <state width="1259" height="457" key="GridCell.Tab.3.right" timestamp="1590341957173">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.3.right/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580892" />
-    <state width="1259" height="457" key="GridCell.Tab.4.bottom" timestamp="1590341580894">
+    <state width="1259" height="457" key="GridCell.Tab.3.right/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957173" />
+    <state width="1259" height="457" key="GridCell.Tab.4.bottom" timestamp="1590341957174">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.4.bottom/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580894" />
-    <state width="1259" height="457" key="GridCell.Tab.4.center" timestamp="1590341580893">
+    <state width="1259" height="457" key="GridCell.Tab.4.bottom/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957174" />
+    <state width="1259" height="457" key="GridCell.Tab.4.center" timestamp="1590341957174">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.4.center/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580893" />
-    <state width="1259" height="457" key="GridCell.Tab.4.left" timestamp="1590341580893">
+    <state width="1259" height="457" key="GridCell.Tab.4.center/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957174" />
+    <state width="1259" height="457" key="GridCell.Tab.4.left" timestamp="1590341957174">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.4.left/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580893" />
-    <state width="1259" height="457" key="GridCell.Tab.4.right" timestamp="1590341580894">
+    <state width="1259" height="457" key="GridCell.Tab.4.left/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957174" />
+    <state width="1259" height="457" key="GridCell.Tab.4.right" timestamp="1590341957174">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="1259" height="457" key="GridCell.Tab.4.right/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341580894" />
+    <state width="1259" height="457" key="GridCell.Tab.4.right/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590341957174" />
     <state x="789" y="370" key="SettingsEditor" timestamp="1590336925107">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -381,14 +380,18 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1047" y="444" key="VCS.ChangeListViewerDialog/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590340735466" />
+    <state x="880" y="471" key="Vcs.Push.Dialog.v2" timestamp="1590342126000">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="880" y="471" key="Vcs.Push.Dialog.v2/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590342126000" />
     <state x="1025" y="585" key="git4idea.ui.GitUnstashDialog" timestamp="1590340736176">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="1025" y="585" key="git4idea.ui.GitUnstashDialog/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590340736176" />
-    <state x="944" y="381" width="670" height="676" key="search.everywhere.popup" timestamp="1590340691176">
+    <state x="944" y="381" width="672" height="676" key="search.everywhere.popup" timestamp="1590342120346">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state x="944" y="381" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590340691176" />
+    <state x="944" y="381" width="672" height="676" key="search.everywhere.popup/-1920.23.1920.1057/2560.109.1280.777/0.23.2560.1417@0.23.2560.1417" timestamp="1590342120346" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
